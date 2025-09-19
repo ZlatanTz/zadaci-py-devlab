@@ -11,7 +11,7 @@ def worstPodcast(podcasti: list) -> str:
 
 
 class Book:
-    def __init__(self, naslov, autor, godina_izdanja, br_kopija):
+    def __init__(self, naslov: str, autor: str, godina_izdanja: int, br_kopija: int):
         self.naslov = naslov
         self.autor = autor
         self.godina_izdanja = godina_izdanja
@@ -155,7 +155,7 @@ def meni():
 
 
 class Company:
-    def __init__(self, name, area, balance, max_num_of_employees):
+    def __init__(self, name: str, area: str, balance: float, max_num_of_employees: int):
         self.__name = name
         self.__area = area
         self.__employees = []
